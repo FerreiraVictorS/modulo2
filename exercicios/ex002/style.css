@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.espaco{
+    width: 100%;
+    height: 100%;
+
+    min-width: 280px;
+    max-width: 2880px;
+
+    min-height: 280px;
+    max-height: 1433px;
+}
+
+.astronauta{
+    display: block;
+    margin: auto;
+    margin-top: -975px;
+}

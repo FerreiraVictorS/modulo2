@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+/* abaixo estão exemplos de shorthands que podem ser executados */
+
+h1{
+    display: block; /* tipo de box*/
+    background-color: lightgray; /* cor de fundo */
+    height: 300px; /* altura */
+    width: 300px; /* largura */
+
+    border: 10px solid aqua; /* largura da borda, estilo e cor */
+
+    padding: 30px 50px 20px 10px; /* distancia entre conteudo, e sua respectiva borda */
+    
+    margin: auto; /* essa propriedade é para que seja centralizado, apenas na vertical */
+
+    outline: 5px dashed chocolate; /* basicamente a borda da borda*/
+}
+
+a{
+    display: inline;  
+    border: 10px groove brown;
+
+    padding: 10px; /* se todas as medidas forem iguais, pode-se colocar apenas uma vez */
+}
+
+p{
+    border: 10px double brown;
+
+    padding: 30px 10px; /* desta forma, o 30px refere-se ao top e bottom, enquanto 10px refere-se ao right e left*/
+
+    margin: 100px 10px 35px;
+
+    text-align: center;
+}

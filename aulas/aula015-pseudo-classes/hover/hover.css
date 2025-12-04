@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div > p.p1 {
+    display: none;
+}
+
+div > p.p2 {
+    display: none;
+}
+
+div:hover > p.p1 {
+    display: block;
+    color: white;
+    background-color: red;
+    width: 300px;
+}
+
+div:hover > p.p2 {
+    display: block;
+    color: black;
+}
+
+div:hover{
+    color: red;
+}
+
+.p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: justify;
+    padding: 10%;
+}

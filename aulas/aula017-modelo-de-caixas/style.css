@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h1{
+    background-color: lightgray;
+    height: 300px; /* altura*/
+    width: 300px; /* largura*/
+    border-width: 10px; /* largura da borda*/
+    border-style: solid; /* literal, o estilo da borda*/
+    border-color: aqua; /* cor da borda*/
+
+    padding-top: 30px; /* distancia entre conteudo, e sua respectiva borda*/
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+a{
+    border-width: 10px;
+    border-style: groove;
+    border-color: brown;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
