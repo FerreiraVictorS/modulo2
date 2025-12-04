@@ -174,11 +174,14 @@ img{
 }
 
 aside{
+    display: block;
     margin: 15px;
     background-color: var(--cor1);
     border-radius: 15px;
     padding: 15px;
     font-family: var(--fonte-padrao);
+    margin: auto;
+    margin-top: 15px;
 }
 
 aside h3{
